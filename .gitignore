@@ -1,0 +1,35 @@
+# 环境变量与配置
+.env
+.env.*
+config.yaml
+
+# Go 编译产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# 目录
+tmp/
+vendor/
+testdata/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# Claude Code
+.remember/
